@@ -1,0 +1,13 @@
+[26-May-2022 11:03:04 Asia/Calcutta] PHP Fatal error:  Uncaught TypeError: Argument 2 passed to outHeadBox() must be of the type array, null given, called in C:\xampp\htdocs\web-analyzer\theme\default\domain.php on line 259 and defined in C:\xampp\htdocs\web-analyzer\core\helpers\website_review_helper.php:59
+Stack trace:
+#0 C:\xampp\htdocs\web-analyzer\theme\default\domain.php(259): outHeadBox('Title Tag', NULL, 1)
+#1 C:\xampp\htdocs\web-analyzer\index.php(29): require('C:\\xampp\\htdocs...')
+#2 {main}
+  thrown in C:\xampp\htdocs\web-analyzer\core\helpers\website_review_helper.php on line 59
+[26-May-2022 11:39:18 Asia/Calcutta] PHP Fatal error:  Uncaught Facebook\Exceptions\FacebookSDKException: Required "app_id" key not supplied in config and could not find fallback environment variable "FACEBOOK_APP_ID" in C:\xampp\htdocs\web-analyzer\core\library\facebook\Facebook.php:139
+Stack trace:
+#0 C:\xampp\htdocs\web-analyzer\core\controllers\facebook.php(38): Facebook\Facebook->__construct(Array)
+#1 C:\xampp\htdocs\web-analyzer\core\app.php(156): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web-analyzer\index.php(25): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown in C:\xampp\htdocs\web-analyzer\core\library\facebook\Facebook.php on line 139
